@@ -17,11 +17,10 @@ public class ejercicio16 {
         } else {
             boolean esPrimo = true;
 
-            // Probamos si algún número desde 2 hasta (numero - 1) lo divide exacto
             for (int i = 2; i < numero; i++) {
                 if (numero % i == 0) {
                     esPrimo = false;
-                    break; // Ya encontramos un divisor, no hace falta seguir
+                    break;
                 }
             }
 

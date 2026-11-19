@@ -16,7 +16,7 @@ public class ejercicio19 {
             for (int i = 1; i <= veces; i++) {
                 System.out.print("*");
             }
-            System.out.println(); // Salto de línea al terminar
+            System.out.println();
         }
     }
 }

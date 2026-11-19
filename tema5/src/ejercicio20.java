@@ -25,7 +25,7 @@ public class ejercicio20 {
                 for (int veces = 1; veces <= fila; veces++) {
                     System.out.print(fila);
                 }
-                System.out.println(); // Salta a la siguiente línea al acabar cada fila
+                System.out.println();
             }
         }
     }
